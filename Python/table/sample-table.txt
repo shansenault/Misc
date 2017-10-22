@@ -1,0 +1,14 @@
+.text
+read-only
+holds program instructions
+
+.data
+writable
+contains static initialized data
+reserved for global variables
+
+.bss
+writable
+contains uninitialized data
+reserved for global variables
+
