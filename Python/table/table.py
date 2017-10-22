@@ -1,3 +1,9 @@
+"""
+Takes plaintext files and converts them to ascii tables.
+First line of each column is treated as the column label, columns
+are split by newlines. Any other line is a row of its corresponding column.
+"""
+
 def create_column(column_data):
     result = ''
 
