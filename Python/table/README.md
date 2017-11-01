@@ -8,7 +8,7 @@ Second line (first row of first column)
 Third line (second row of first column)
 ...
 (newline)
-Second line (second column header)
+nth line (second column header)
 ...
 (final line must be a newline, this indcates the final column)
 ```
