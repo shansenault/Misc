@@ -13,6 +13,8 @@ Second line (second column header)
 (final line must be a newline, this indcates the final column)
 ```
 
+See `sample-table.txt` for an example.
+
 ## Usage
 
 In your terminal emulator of choice, within the directory of `table.py` and the input file:
