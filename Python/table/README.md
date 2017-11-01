@@ -21,6 +21,19 @@ In your terminal emulator of choice, within the directory of `table.py` and the 
 
 `python table.py <sample-table.txt>`
 
+You should see something akin to this:
+
+```
++-----------------------------+-----------------------------------+--------------------------------+
+|            .text            |               .data               |              .bss              |
++-----------------------------+-----------------------------------+--------------------------------+
+| read-only                   | writable                          | writable                       |
+| holds program instructions  | contains static initialized data  | contains uninitialized data    |
+|                             | reserved for global variables     | reserved for global variables  |
++-----------------------------+-----------------------------------+--------------------------------+
+```
+
+
 ## TODO
 
 * Turn this into a proper CLI tool
